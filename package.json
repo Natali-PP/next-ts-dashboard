@@ -6,15 +6,36 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.11.16",
+    "@mui/x-data-grid": "^6.1.0",
+    "@mui/x-data-grid-generator": "^6.1.0",
+    "@types/chart.js": "^2.9.37",
     "@types/node": "18.15.11",
     "@types/react": "18.0.33",
     "@types/react-dom": "18.0.11",
+    "chart.js": "^4.2.1",
     "next": "13.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "sass": "^1.61.0",
     "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.3",
+    "@storybook/addon-interactions": "^7.0.3",
+    "@storybook/addon-links": "^7.0.3",
+    "@storybook/blocks": "^7.0.3",
+    "@storybook/nextjs": "^7.0.3",
+    "@storybook/react": "^7.0.3",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "storybook": "^7.0.3"
   }
 }
